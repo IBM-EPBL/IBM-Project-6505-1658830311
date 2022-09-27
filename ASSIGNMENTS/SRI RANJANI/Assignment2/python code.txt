@@ -1,0 +1,38 @@
+
+
+Skip to content
+Using AAA College of Engineering and Technology Mail with screen readers
+Conversations
+Using 0.64 GB
+Program Policies
+Powered by Google
+Last account activity: 18 minutes ago
+Details
+
+import random
+temparature=random.randint(1,100)
+humidity=random.randint(1,50)
+print(temparature)
+print(humidity)
+if((temparature<50)&(humidity<30)):
+    print("temparature is normal:")
+    print("humidity is normal:")
+    print("alarm off")
+elseif((temparature<50)&(humidity>30)):
+    print("temparature is low:")
+    print("humidity is highl:")
+    print("alarm off")
+elseif((temparature>50)&(humidity<30)):
+    print("temparature is high:")
+    print("humidity is high:")
+    print("alarm on")
+if((temparature>50)&(humidity>30)):
+    print("temparature is high:")
+    print("humidity is low:")
+    print("alarm on")
+else:
+    print("temparature is very low:")
+    print("humidity is very low:")
+    print("alarm off")
+Python code.txt
+Displaying Python code.txt.
